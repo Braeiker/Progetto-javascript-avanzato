@@ -60,7 +60,7 @@ async function loadStories() {
 }
 
 function renderStories(stories) {
-  const container = document.getElementById('culo');
+  const container = document.getElementById('cont');
   container.innerHTML = '';
   stories.forEach((story) => {
     const article = document.createElement('div');
